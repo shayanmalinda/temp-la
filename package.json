@@ -21,8 +21,10 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "dayjs": "^1.11.7",
-    "eslint": "^5.12.0",
-    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint": "5.12.0",
+    "eslint-plugin-eslint-plugin": "^5.2.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-unicorn": "^52.0.0",
     "react": "^18.2.0",
     "react-calendar-icon": "^0.10.0",
     "react-copy-to-clipboard": "^5.1.0",
@@ -41,8 +43,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
